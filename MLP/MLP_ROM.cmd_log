@@ -1,0 +1,3 @@
+vhdtdtfi -prj MLP -o C:/Users/User/Documents/ISE_Project/MLP/MLP_ROM.vhi -module MLP_ROM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MLP_ROM.vhd 
+vhdtdtfi -lib work MLP_ROM.vhd -prj MLP -o MLP_ROM.spl -module MLP_ROM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 MLP_ROM.spl C:/Users/User/Documents/ISE_Project/MLP/MLP_ROM.sym 

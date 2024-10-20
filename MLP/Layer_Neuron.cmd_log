@@ -1,0 +1,4 @@
+vhdtdtfi -prj MLP -o C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.vhi -module Layer_Neuron -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Comparator.vhd -lib work Register_src.vhd -lib work Register_File.vhd -lib work MUX.vhd -lib work Multiplier.vhd -lib work Address_Counter.vhd -lib work Adder.vhd -lib work Accumulator.vhd -lib work First_Layer_Neuron.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.xst" -ofn "C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.xst" -ofn "C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.xst" -ofn "C:/Users/User/Documents/ISE_Project/MLP/Layer_Neuron.syr" 

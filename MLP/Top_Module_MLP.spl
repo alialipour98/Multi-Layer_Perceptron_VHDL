@@ -1,0 +1,11 @@
+[Inputs]
+Clock
+Reset
+Start
+=INPUT_0[7:0]=
+=INPUT_1[7:0]=
+=INPUT_2[7:0]=
+=INPUT_3[7:0]=
+[Outputs]
+=OUTPUT[1:0]=
+[BiDir]

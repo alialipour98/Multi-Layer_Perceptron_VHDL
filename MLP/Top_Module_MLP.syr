@@ -1,0 +1,238 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Top_Module_MLP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top_Module_MLP.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top_Module_MLP"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : Top_Module_MLP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Counter.vhd" into library work
+Parsing entity <Counter>.
+Parsing architecture <Behavioral> of entity <counter>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Comparator.vhd" into library work
+Parsing entity <Comparator>.
+Parsing architecture <Behavioral> of entity <comparator>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Register_src.vhd" into library work
+Parsing entity <Register_src>.
+Parsing architecture <Behavioral> of entity <register_src>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Register_File.vhd" into library work
+Parsing entity <Register_File>.
+Parsing architecture <Behavioral> of entity <register_file>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\MUX.vhd" into library work
+Parsing entity <MUX>.
+Parsing architecture <Behavioral> of entity <mux>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Multiplier.vhd" into library work
+Parsing entity <Multiplier>.
+Parsing architecture <Behavioral> of entity <multiplier>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Address_Counter.vhd" into library work
+Parsing entity <Address_Counter>.
+Parsing architecture <Behavioral> of entity <address_counter>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Adder.vhd" into library work
+Parsing entity <Adder>.
+Parsing architecture <Behavioral> of entity <adder>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Accumulator.vhd" into library work
+Parsing entity <Accumulator>.
+Parsing architecture <Behavioral> of entity <accumulator>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\First_Layer_Neuron_Controller.vhd" into library work
+Parsing entity <Neuron_Controller>.
+Parsing architecture <Behavioral> of entity <neuron_controller>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\First_Layer_Neuron.vhd" into library work
+Parsing entity <Layer_Neuron>.
+Parsing architecture <Behavioral> of entity <layer_neuron>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Neuron_Top.vhd" into library work
+Parsing entity <Neuron_Top>.
+Parsing architecture <Behavioral> of entity <neuron_top>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Comparator_3_Number.vhd" into library work
+Parsing entity <Comparator_3_Number>.
+Parsing architecture <Behavioral> of entity <comparator_3_number>.
+Parsing VHDL file "C:\Users\User\Documents\ISE_Project\MLP\Top_Module_MLP.vhd" into library work
+Parsing entity <Top_Module_MLP>.
+Parsing architecture <Behavioral> of entity <top_module_mlp>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Top_Module_MLP> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\User\Documents\ISE_Project\MLP\Top_Module_MLP.vhd" Line 59: Using initial value
+   (('0','0','0','0','1','0','1','1'),('1','1','1','1','0','1','0','1'),('1','1','0','0','0','1','0','0'),('1','1','1','1','1','0','0','0'),('1','1','0','1','1','1','0','1'),('1','1','1','0','0','1','1','0'),('1','1','1','1','0','1','0','0'),('0','0','1','0','0','0','1','0'),('1','1','1','1','1','1','0','1'),('0','0','0','0','0','1','0','1'),('0','0','1','0','0','0','0','1'),('0','0','1','1','0','1','1','0'),('0','0','1','0','0','1','0','1'),('1','1','1','1','0','1','1','1'),('1','1','0','1','1','0','0','1'),('0','0','0','0','0','0','1','1'),('1','1','1','1','1','0','1','0'),('0','0','0','1','1','0','0','1'),('1','1','1','1','0','1','0','0'),('0','0','0','1','0','0','0','0'),('1','1','1','0','1','0','0','0'),('1','1','1','1','0','0','0','1'),('1','1','1','1','0','1','0','1'),('0','0','1','1','0','0','0','0'),('1','1','1','0','1','1','0','1'),('0','0','0','0','0','1','1','0'),('0','0','0','0','0','0','1','1'),('1','1','0','1','1','1','1','0'),('0','0','0','1','0','1','0','1'),('1','1','0','1','0','1','1','1'),
+   ('0','0','0','0','0','1','1','0'),('0','0','0','0','0','0','1','1'),('1','1','1','0','0','0','1','0'),('0','1','0','0','0','0','0','1'),('0','0','0','0','0','0','0','0'),('1','1','1','0','1','1','1','0'),('1','1','0','0','0','0','1','0'),('1','1','1','1','1','1','1','0'),('1','1','1','1','0','1','0','0'),('1','1','1','1','1','0','1','1'),('0','0','0','0','1','1','0','1'),('1','1','0','1','0','0','1','0'),('1','1','0','1','0','1','1','0'),('0','0','0','1','0','0','0','0'),('1','1','1','0','1','0','1','1'),('0','0','0','1','1','1','0','0'),('1','1','0','1','1','1','1','1'),('0','0','1','0','0','0','0','0'),('1','1','0','1','1','0','1','1'),('1','1','0','1','0','1','1','0'),('0','0','0','0','1','1','0','0'),('1','1','1','0','1','1','0','1'),('0','0','0','1','1','0','1','1'),('0','0','1','1','0','1','1','0'),('0','0','1','0','1','1','1','0'),('1','1','0','1','1','1','0','1'),('0','0','0','0','1','0','1','0'),('0','0','1','0','0','1','0','1'),('1','1','1','1','0','1','1','1'),('1','1','0','1','1','0','0','1'),(
+   '0','0','1','1','1','0','0','0'),('1','1','0','1','0','0','1','0'),('1','1','1','1','0','1','1','1'),('1','1','0','1','1','0','0','0'),('0','0','0','0','1','1','1','1'),('0','0','0','1','1','0','0','1'),('0','0','0','0','1','1','0','1'),('1','1','0','1','0','1','0','0'),('1','1','1','0','0','1','0','1'),('0','0','1','0','1','1','1','1'),('1','1','0','0','1','0','1','1'),('1','1','1','1','0','0','0','1'),('1','1','1','1','1','1','0','1'),('1','1','1','0','0','1','0','1'),('0','0','0','1','1','0','1','1'),('1','1','1','1','1','0','0','0'),('0','0','1','0','0','0','0','0'),('0','0','1','0','0','1','1','1'),('0','0','0','0','1','1','0','1'),('0','0','0','0','1','1','1','1'),('1','1','1','0','1','1','1','1'),('0','0','0','1','0','1','1','0'),('1','1','0','1','0','1','1','0'),('0','0','0','0','1','1','1','1'),('1','1','1','0','1','0','0','0'),('0','0','0','0','1','0','1','1'),('0','0','1','0','1','1','1','1'),('1','1','1','0','1','1','1','1'),('1','1','0','0','0','1','0','1'),('0','0','0','1','0','1','0','0'),('
+   1','1','0','0','1','1','1','1'),('1','1','1','0','1','1','1','0'),('0','0','1','0','1','1','0','1'),('0','0','0','0','1','1','1','0'),('1','1','1','1','0','0','1','0'),('0','0','1','0','1','1','1','0'),('0','0','0','0','0','1','1','1'),('0','0','0','1','0','0','0','1'),('1','1','1','0','1','1','1','1'),('0','0','0','0','1','0','0','0'),('0','0','1','0','1','1','0','1'),('1','1','0','0','1','1','1','0'),('0','0','1','0','1','1','0','0'),('0','0','1','1','0','0','1','0'),('0','0','0','0','1','0','0','1'),('0','0','1','0','0','1','0','0'),('0','0','0','0','1','0','0','1'),('1','1','0','0','1','0','1','0'),('0','1','0','0','1','0','0','1'),('1','1','1','0','1','1','0','1'),('0','0','0','1','1','0','0','0'),('0','0','0','1','0','1','1','1'),('0','0','1','0','0','0','0','0'),('1','1','0','1','1','0','0','1'),('1','1','0','0','1','1','0','1'),('1','1','0','1','1','0','1','1'),('1','1','0','0','0','1','1','1'),('1','1','0','1','0','1','0','0'),('0','0','0','0','0','0','1','1'),('1','1','1','1','0','0','0','0'),('1
+   ','0','1','0','0','1','1','1'),('1','1','0','1','0','0','0','1'),('1','1','0','1','0','1','0','0'),('0','0','0','0','0','1','1','0'),('1','1','1','1','0','0','0','0'),('0','0','0','0','0','0','1','1'),('0','0','1','0','0','0','1','0'),('1','1','0','0','0','1','1','1'),('0','0','0','1','0','1','0','1'),('1','1','0','1','0','0','0','0'),('0','1','0','0','0','0','1','1'),('1','1','0','0','0','0','1','1'),('0','0','0','0','1','0','0','0'),('0','0','1','0','0','1','0','1'),('0','0','0','0','0','0','0','0'),('0','0','0','1','0','1','0','0'),('1','1','1','0','0','0','1','1'),('1','0','1','1','1','1','0','1'),('0','0','0','1','1','1','1','1'),('0','0','1','1','1','0','0','0'),('0','1','0','0','1','0','0','1'),('0','0','1','1','0','0','0','1'),('1','1','1','1','0','1','0','1'),('0','0','1','0','1','1','1','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('1','1','1','1','0','1','1','0'),('0','0','0','1','0','0','0','0'),('1','1','1','0','1','1','1','1'),('0','0','0','0','0','0','0','0'),('0'
+   ,'0','0','0','0','0','0','0'),('1','1','1','0','1','1','1','1'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','1','1','1','1','1'),('0','0','0','1','1','1','0','1'),('1','1','1','0','1','1','1','1'),('1','1','1','0','1','0','1','1'),('0','0','0','0','0','0','1','1'),('1','1','1','0','1','1','1','1'),('0','0','1','0','0','0','0','1'),('1','1','1','0','0','1','1','1'),('0','0','0','0','1','1','1','1'),('0','0','0','1','1','0','0','0'),('1','1','1','0','1','0','1','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0',
+   '0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','
+   0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0
+   ','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0'),('0','0','0','0','0','0','0','0') for rom since it is never assigned
+
+Elaborating entity <Neuron_Top> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Layer_Neuron> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\User\Documents\ISE_Project\MLP\First_Layer_Neuron.vhd" Line 70: Using initial value "00000000" for zeroreg since it is never assigned
+
+Elaborating entity <Register_File> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Address_Counter> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Comparator> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Counter> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Register_src> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Multiplier> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Adder> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Accumulator> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MUX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Neuron_Controller> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Neuron_Top> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Layer_Neuron> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Address_Counter> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Neuron_Top> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Layer_Neuron> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Address_Counter> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Comparator_3_Number> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX> (architecture <Behavioral>) with generics from library <work>.
+ERROR:HDLCompiler:1401 - "C:\Users\User\Documents\ISE_Project\MLP\Top_Module_MLP.vhd" Line 85: Signal Done_I in unit Top_Module_MLP(8,8) is connected to following multiple drivers:
+Driver 0: GEN_I[9].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[9].Neuron_Layer_I).
+Driver 1: GEN_I[8].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[8].Neuron_Layer_I).
+Driver 2: GEN_I[7].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[7].Neuron_Layer_I).
+Driver 3: GEN_I[6].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[6].Neuron_Layer_I).
+Driver 4: GEN_I[5].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[5].Neuron_Layer_I).
+Driver 5: GEN_I[4].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[4].Neuron_Layer_I).
+Driver 6: GEN_I[3].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[3].Neuron_Layer_I).
+Driver 7: GEN_I[2].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[2].Neuron_Layer_I).
+Driver 8: GEN_I[1].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[1].Neuron_Layer_I).
+Driver 9: GEN_I[0].Neuron_Layer_I/Done_OUT driven by output signal EQ of instance Equal (GEN_I[0].Neuron_Layer_I).
+ERROR:HDLCompiler:1401 - "C:\Users\User\Documents\ISE_Project\MLP\Top_Module_MLP.vhd" Line 123: Signal Done_II in unit Top_Module_MLP(8,8) is connected to following multiple drivers:
+Driver 0: GEN_II[7].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[7].Neuron_Layer_II).
+Driver 1: GEN_II[6].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[6].Neuron_Layer_II).
+Driver 2: GEN_II[5].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[5].Neuron_Layer_II).
+Driver 3: GEN_II[4].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[4].Neuron_Layer_II).
+Driver 4: GEN_II[3].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[3].Neuron_Layer_II).
+Driver 5: GEN_II[2].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[2].Neuron_Layer_II).
+Driver 6: GEN_II[1].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[1].Neuron_Layer_II).
+Driver 7: GEN_II[0].Neuron_Layer_II/Done_OUT driven by output signal EQ of instance Equal (GEN_II[0].Neuron_Layer_II).
+ERROR:HDLCompiler:1401 - "C:\Users\User\Documents\ISE_Project\MLP\Top_Module_MLP.vhd" Line 161: Signal Done_III in unit Top_Module_MLP(8,8) is connected to following multiple drivers:
+Driver 0: GEN_III[2].Neuron_Layer_III/Done_OUT driven by output signal EQ of instance Equal (GEN_III[2].Neuron_Layer_III).
+Driver 1: GEN_III[1].Neuron_Layer_III/Done_OUT driven by output signal EQ of instance Equal (GEN_III[1].Neuron_Layer_III).
+Driver 2: GEN_III[0].Neuron_Layer_III/Done_OUT driven by output signal EQ of instance Equal (GEN_III[0].Neuron_Layer_III).
+--> 
+
+Total memory usage is 4465536 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

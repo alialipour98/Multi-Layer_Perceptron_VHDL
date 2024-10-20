@@ -1,0 +1,56 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP_tb_isim_beh.exe" -prj "C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP_tb_beh.prj" "work.Top_Module_MLP_tb" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Counter.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Comparator.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Register_src.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Register_File.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Multiplier.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Address_Counter.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Accumulator.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/First_Layer_Neuron_Controller.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/First_Layer_Neuron.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/User/Documents/ISE_Project/MLP/First_Layer_Neuron.vhd" Line 173: Actual for formal port bias_in is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Neuron_Top.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Comparator_3_Number.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP.vhd" into library work
+Parsing VHDL file "C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity Register_File [register_file_default]
+Compiling architecture behavioral of entity Comparator [\Comparator(4)\]
+Compiling architecture behavioral of entity Counter [\Counter(4)\]
+Compiling architecture behavioral of entity Address_Counter [\Address_Counter(4,4)\]
+Compiling architecture behavioral of entity Register_src [register_src_default]
+Compiling architecture behavioral of entity Multiplier [multiplier_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity Accumulator [accumulator_default]
+Compiling architecture behavioral of entity MUX [mux_default]
+Compiling architecture behavioral of entity Layer_Neuron [\Layer_Neuron(4,4)\]
+Compiling architecture behavioral of entity Neuron_Controller [neuron_controller_default]
+Compiling architecture behavioral of entity Neuron_Top [\Neuron_Top(4,4)\]
+Compiling architecture behavioral of entity Address_Counter [\Address_Counter(4,10)\]
+Compiling architecture behavioral of entity Layer_Neuron [\Layer_Neuron(4,10)\]
+Compiling architecture behavioral of entity Neuron_Top [\Neuron_Top(4,10)\]
+Compiling architecture behavioral of entity Address_Counter [\Address_Counter(4,8)\]
+Compiling architecture behavioral of entity Layer_Neuron [\Layer_Neuron(4,8)\]
+Compiling architecture behavioral of entity Neuron_Top [\Neuron_Top(4,8)\]
+Compiling architecture behavioral of entity Comparator_3_Number [comparator_3_number_default]
+Compiling architecture behavioral of entity MUX [\MUX(2)\]
+Compiling architecture behavioral of entity Top_Module_MLP [\Top_Module_MLP(8,8)\]
+Compiling architecture behavior of entity top_module_mlp_tb
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 48 VHDL Units
+Built simulation executable C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP_tb_isim_beh.exe
+Fuse Memory Usage: 38864 KB
+Fuse CPU Usage: 796 ms

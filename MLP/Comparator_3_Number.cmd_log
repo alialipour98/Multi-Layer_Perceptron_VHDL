@@ -1,0 +1,1 @@
+vhdtdtfi -prj MLP -o C:/Users/User/Documents/ISE_Project/MLP/Comparator_3_Number.vhi -module Comparator_3_Number -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Comparator_3_Number.vhd 

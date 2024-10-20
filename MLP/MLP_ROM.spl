@@ -1,0 +1,7 @@
+[Inputs]
+Clock
+ReadEn
+=AddrRD[7:0]=
+[Outputs]
+=DataRD[7:0]=
+[BiDir]

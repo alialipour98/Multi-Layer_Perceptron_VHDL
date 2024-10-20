@@ -1,0 +1,174 @@
+ISim log file
+Running: C:\Users\User\Documents\ISE_Project\MLP\Top_Module_MLP_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(0)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(1)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(2)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(3)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(4)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(5)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(6)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(7)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(8)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(9)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(0)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(1)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(2)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(3)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(4)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(5)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(6)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(7)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(0)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(1)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(2)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 1.00us
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(0)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(1)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(2)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(3)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(4)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(5)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(6)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(7)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(8)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(9)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(0)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(1)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(2)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(3)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(4)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(5)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(6)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(7)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(0)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(1)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(2)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(0)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(1)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(2)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(3)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(4)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(5)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(6)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(7)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(8)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(9)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(0)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(1)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(2)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(3)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(4)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(5)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(6)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(7)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(0)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(1)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(2)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(0)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(1)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(2)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(3)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(4)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(5)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(6)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(7)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(8)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(9)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(0)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(1)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(2)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(3)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(4)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(5)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(6)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(7)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(0)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(1)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(2)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(0)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(1)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(2)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(3)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(4)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(5)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(6)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(7)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(8)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(9)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(0)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(1)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(2)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(3)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(4)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(5)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(6)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(7)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(0)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(1)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(2)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(0)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(1)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(2)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(3)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(4)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(5)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(6)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(7)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(8)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_i(9)\/Neuron_Layer_I/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(0)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(1)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(2)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(3)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(4)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(5)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(6)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_ii(7)\/Neuron_Layer_II/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(0)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(1)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/\gen_iii(2)\/Neuron_Layer_III/DP_Neuron/AddrCounter/COMP/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /top_module_mlp_tb/uut/Comparator/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.

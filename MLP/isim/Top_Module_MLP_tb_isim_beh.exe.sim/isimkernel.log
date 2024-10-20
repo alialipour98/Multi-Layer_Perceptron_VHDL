@@ -1,0 +1,28 @@
+Command line:
+   Top_Module_MLP_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  7760
+
+Sat Apr 29 17:02:21 2023
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 4710.38 Meg
+
+ Total Signals          : 4120
+ Total Nets             : 13291
+ Total Signal Drivers   : 765
+ Total Blocks           : 323
+ Total Primitive Blocks : 237
+ Total Processes        : 572
+ Total Traceable Variables  : 587
+ Total Scalar Nets and Variables : 15118
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4710.38 Meg
+
+Sat Apr 29 17:05:56 2023
+

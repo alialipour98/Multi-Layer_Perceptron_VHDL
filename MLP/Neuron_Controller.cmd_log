@@ -1,0 +1,2 @@
+vhdtdtfi -prj MLP -o C:/Users/User/Documents/ISE_Project/MLP/Neuron_Controller.vhi -module Neuron_Controller -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work First_Layer_Neuron_Controller.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/ISE_Project/MLP/Neuron_Controller.xst" -ofn "C:/Users/User/Documents/ISE_Project/MLP/Neuron_Controller.syr" 

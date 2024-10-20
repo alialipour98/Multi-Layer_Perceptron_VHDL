@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Documents/ISE_Project/MLP/Top_Module_MLP_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_textio" />
+            <top_module name="textio" />
+            <top_module name="top_module_mlp_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/top_module_mlp_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/input_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_0[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/input_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/input_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_2[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/input_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_3[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[1:0]</obj_property>
+      <obj_property name="ObjectShortName">output[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/test" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">test[0:119]</obj_property>
+      <obj_property name="ObjectShortName">test[0:119]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/targer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">targer[0:29]</obj_property>
+      <obj_property name="ObjectShortName">targer[0:29]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[7:0]</obj_property>
+      <obj_property name="ObjectShortName">j[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/k" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">k[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/done_prev" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_prev</obj_property>
+      <obj_property name="ObjectShortName">done_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_mlp_tb/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>
